@@ -7,7 +7,7 @@ function getContactFormValue(){
 	let subject = document.getElementById("subject").value;
 	let message = document.getElementById("message").value;
 	
-  // Save textarea value with line breaks
+       // Save textarea value with line breaks
 	message = message.replace(/\n\r?/g, "%0A");
 	
 	// Send e-mail address if you click on the button "Send"	
